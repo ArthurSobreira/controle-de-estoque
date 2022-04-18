@@ -42,12 +42,12 @@ while True:
     if choice == 4:
         apart('Informações de um Produto Específico', 43)
         name = str(input('Digite o Nome do Produto que Deseja Acessar: ')).strip().title()
-        productList(name)
+        product_list(name)
 
     if choice == 5:
         apart('Edição de um Produto Específico', 45)
         name = str(input('Digite o Nome do Produto que Deseja Editar: ')).strip().title()
-        productEdit(name)
+        product_edit(name)
 
     if choice == 6:
         exit()

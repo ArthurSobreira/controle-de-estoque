@@ -50,7 +50,7 @@ def list():
     print('\033[97;1m=\033[m' * 60)
 
 
-def productList(name):
+def product_list(name):
     tot = 0
     for c in products:
         if c['name'] == name:
@@ -64,7 +64,7 @@ def productList(name):
         print(f'\033[31mO Produto {name} não foi cadastrado, tente novamente!\033[m')
 
 
-def productEdit(name):
+def product_edit(name):
     tot = 0
     for c in products:
         if c['name'] == name:
